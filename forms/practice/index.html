@@ -1,0 +1,28 @@
+<link rel="stylesheet" href="style.css">
+<form action="#">
+  <label for="pizza">What is your favourite pizza?
+    <span aria-label="required">*</span>
+    <select name="pizza" id="pizza">
+      <option value="marg">Margerita</option>
+      <option value="cap">Capriciosa</option>
+      <option value="hav">Havaii</option>
+      <option value="veg">Vegetarian</option>
+    </select>
+  </label>
+</form>
+<form action="">
+
+  <fieldset>
+    <legend>What sauce would you like?<span aria-label="required">*</span></legend>
+    <div>
+      <input type="radio" required id="light" name="sauce" value="garlic">
+      <label for="light">
+        Garlic
+      </label>
+    </div>
+    <div>
+      <input type="radio" required id="hot" name="sauce" value="hot">
+      <label for="hot">Hot</label>
+    </div> 
+  </fieldset>
+</form>
